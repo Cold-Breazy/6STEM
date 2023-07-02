@@ -30,7 +30,7 @@ then
 echo -e "          ${red}ACCESS KEY IS REQUIRED"
 sleep 2.0
 exit 0
-elif [ "$key" == "4F2B847611M848" ];
+elif [ "$key" == "MANDISA#123" ];
 then
 sleep 2.0
 else
@@ -51,7 +51,7 @@ then
 bash .about.sh
 elif [ "$opt" == "2" ];
 then
-bash .greb.sh
+python .greb.py
 elif [ "$opt" == "3" ];
 then
 python .dump.py

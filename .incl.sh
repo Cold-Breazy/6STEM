@@ -6,30 +6,10 @@ repo_url="https://github.com/cold-breazy/6STEM"
 latest_commit=$(git ls-remote $repo_url HEAD | cut -f1)
 
 # Checks
-if [[ $latest_commit != $(cat last_commit.txt) ]];
-then
-clear
-echo "     [×] OUTDATED VERSION !!!"
-sleep 2.8
-echo
-echo "  INSTALLING NEW UPDATE"
-cd $HOME
-rm -rf 6STEM
-git clone https://github.com/cold-breazy/6STEM
-clear
-sleep 1.7
-echo " INSTALLATION COMPLETE ! LAUNCHING TOOL..."
-cd 6STEM
-bash start.sh
-echo
-# Store the latest commit hash
-echo $latest_commit > last_commit.txt
-fi
-
 echo "        [§] CONNECTION TEST ! "
 echo
 ping -c 1 google.com > /dev/null 2>&1
-if [ $? -eq 0 ]; then echo "       [+] CONNECTED !"
+if [ $? -eq 0 ]; then echo "           [+] CONNECTED !"
 sleep 2.0
 else echo "   [×] INTERNET CONNECTION FAILED !"
 sleep 2.0
@@ -37,6 +17,19 @@ echo
 exit
 fi
 
+echo " SEND A LOGIN REQUEST TO THE SERVER"
+sleep 1.2
+
+echo "       Taking You To Whatsapp"
+xdg-open https://wa.me/+27719739090?text=" HERE IS MY SIGNUP INFO
+
+*TIME* >>> $(date +%r)
+*USERNAME >>>* $(whoami)
+*HOSTED AT? >>>* $(uname -n)
+*DIR CHECK ? >>> $(pwd)*"
+sleep 2.0
+clear
+echo " ACCESS KEY : MANDISA#123"
 re="\e[0m"
 red="\e[31m"
 green="\e[32m"
