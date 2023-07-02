@@ -4,7 +4,7 @@
 
 ## Tool Screenshot
 
-![Alt text](https://raw.githubusercontent.com/Cold-Breazy/camjacker/main/Screenshot_20220717-133509_Termux.jpg "screenshot")
+![Alt text](https://github.com/Cold-Breazy/6STEM/blob/main/Screenshot_20230702-024051.png "screenshot")
 
 ## AVAILABLE ON :
 
@@ -40,7 +40,7 @@
 Remember to turn on Mobile Hotspot or atleast connect to a nearby Wifi. Else Link will not show!
 
 ## Total Tool Views?
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcold-breazy%2Fcamjacker&count_bg=%23FF6C1D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcold-breazy%2F6STEM&count_bg=%23FF6C1D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ## SOCIAL ?
 ### Find us On :
